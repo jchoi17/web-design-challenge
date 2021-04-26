@@ -1,4 +1,73 @@
-<table border="1" class="dataframe">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--body start-->
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+
+        <!--VISUALIZATIONS-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Visualizations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="visualization1.html">Temperature</a>
+            <a class="dropdown-item" href="visualization2.html">Humidity</a>
+            <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+            <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
+          </div>
+        </li>
+
+        <!--COMPARISONS-->
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html" tabindex="-1">Comparisons</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--HEADER-->
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Hello!</h1>
+      <p class="lead">Welcome to our weather analysis website.</p>
+      <hr class="my-4">
+    </div>
+  </div>
+
+<!--content area-->
+<div class="row">
+  <div class="col-lg-8">
+    <h2>Data</h2>
+    <p>
+      Here is the data that was used for this project.
+    </p>
+  </div>
+
+<div class="table-responsive-xl">
+  <table class="table">
   <thead>
     <tr style="text-align: right;">
       <th>City</th>
@@ -5484,3 +5553,4 @@
     </tr>
   </tbody>
 </table>
+</div>
