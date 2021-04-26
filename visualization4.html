@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap Components</title>
+  <title>Wind Speed</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -35,16 +35,16 @@
             Visualizations
             </a>
              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="visualization1.html">V1</a>
-            <a class="dropdown-item" href="visualization2.html">V2</a>
-            <a class="dropdown-item" href="visualization3.html">V3</a>
+            <a class="dropdown-item" href="visualization1.html">Temperature</a>
+            <a class="dropdown-item" href="visualization2.html">Humidity</a>
+            <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
             <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
             </div>
             </li>
 
             <!--COMPARISONS-->
             <li class="nav-item">
-            <a class="nav-link disabled" href="comparisons.html" tabindex="-1">Comparisons</a>
+              <a class="nav-link" href="comparisons.html" tabindex="-1">Comparisons</a>
             </li>
             </ul>
         </div>
@@ -53,22 +53,33 @@
   <!--HEADER-->
   <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Visualization</h1>
+      <h1 class="display-4">Wind Speed</h1>
       <p class="lead">Latitude vs Wind Speed</p>
       <hr class="my-4">
     </div>
   </div>
 
   <!--VISUAL-->
-    <div class="row">
+<div class="row">
+  <div class="column-lg-1">
+    <p>  </p>
+
+  </div>
+    <div class="column-md-6">
       <img src="Resources/assets/images/Fig4.png">
     </div>
 
-<!--Paragraph-->
-    <div class="text">
-    <p> There does not seem to be much of a corelation between wind speed and latitude of a city. </p>
+    <div class="column-lg-1">
+      <p>  </p>
     </div>
- 
+<!--Paragraph-->
+</div>
+<div class="row">
+<div class="column-lg-12">
+  <p> There does not seem to be much of a corelation between wind speed and latitude of a city. </p>
+</div>
+</div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

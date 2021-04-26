@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap Components</title>
+  <title>Comparisons</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Landing<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -33,16 +33,16 @@
             Visualizations
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="visualizations1.html">V1</a>
-            <a class="dropdown-item" href="visualizations.html">V2</a>
-            <a class="dropdown-item" href="#">V3</a>
-            <a class="dropdown-item" href="#">V4</a>
+            <a class="dropdown-item" href="visualization1.html">Temperature</a>
+            <a class="dropdown-item" href="visualization2.html">Humidity</a>
+            <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+            <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
           </div>
         </li>
 
         <!--COMPARISONS-->
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1">Comparisons</a>
+          <a href="comparisons.html" tabindex="-1">Comparisons</a>
         </li>
       </ul>
     </div>
@@ -51,22 +51,57 @@
   <!--HEADER-->
   <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Hello!</h1>
+      <h1 class="display-4">Comparisons: Latitude vs X</h1>
       <p class="lead">This is the comparisons page.</p>
       <hr class="my-4">
     </div>
   </div>
 
-    <div class="row">
-      
+  <!--content area-->
+  <div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-lg-6">
+            <img src="Resources/assets/images/Fig1.png"
+                height=325px>
+
+        </div>
+        <div class="col-lg-6">
+            <img src="Resources/assets/images/Fig2.png"
+                height=325px>
+        </div>
     </div>
 
+    <div class="row text-center">
+        <div class="col-lg-6">
+            <img src="Resources/assets/images/Fig3.png"
+                height=325px>
+        </div>
 
-    <div class="row">
-     
+        <div class="col-lg-6">
+            <img src="Resources/assets/images/Fig4.png"
+                height=325px>
+        </div>
     </div>
- 
 </div>
+
+<div class="container">
+    <div class="row">
+        
+        <div class="column-lg-12">
+            <p>
+              Here we can observe 4 charts depicting temperature, cloudiness, wind speed, and humidity against latitude.
+            </p>
+        </div>
+
+       
+
+    </div>
+
+</div>
+
+</div>
+ 
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
